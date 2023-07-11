@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const primaryColor = Color(0xFF2697FF);
-const secondaryColor = Color(0xFF0A2C4F);
-const bgColor = Color(0xFF0A2C4F);
+const secondaryColor = Color(0xFF2A2D3E);
+const bgColor = Color(0xFF212332);
 
 const defaultPadding = 16.0;
