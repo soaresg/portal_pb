@@ -1,18 +1,19 @@
-import 'package:admin/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:portal_pb/constants.dart';
 
 class CloudStorageInfo {
   final String svgSrc, title, totalStorage;
   final int numOfFiels, percentage;
   final Color color;
 
-  CloudStorageInfo(
-      {this.svgSrc,
-      this.title,
-      this.totalStorage,
-      this.numOfFiels,
-      this.percentage,
-      this.color});
+  CloudStorageInfo({
+    required this.svgSrc,
+    required this.title,
+    required this.totalStorage,
+    required this.numOfFiels,
+    required this.percentage,
+    required this.color,
+  });
 }
 
 List demoMyFiels = [
@@ -29,7 +30,7 @@ List demoMyFiels = [
     numOfFiels: 1328,
     svgSrc: "assets/icons/google_drive.svg",
     totalStorage: "2.9GB",
-    color: Color(0xFFFFA113),
+    color: const Color(0xFFFFA113),
     percentage: 35,
   ),
   CloudStorageInfo(
@@ -37,15 +38,15 @@ List demoMyFiels = [
     numOfFiels: 1328,
     svgSrc: "assets/icons/one_drive.svg",
     totalStorage: "1GB",
-    color: Color(0xFFA4CDFF),
+    color: const Color(0xFFA4CDFF),
     percentage: 10,
   ),
   CloudStorageInfo(
-    title: "Documents",
+    title: "Dropbox",
     numOfFiels: 5328,
     svgSrc: "assets/icons/drop_box.svg",
     totalStorage: "7.3GB",
-    color: Color(0xFF007EE5),
+    color: const Color(0xFF007EE5),
     percentage: 78,
   ),
 ];
